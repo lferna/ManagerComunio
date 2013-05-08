@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Espacio Usuario</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/interface.js"></script>
+
+<!--[if lt IE 7]>
+ <style type="text/css">
+ .dock img { behavior: url(iepngfix.htc) }
+ </style>
+<![endif]-->
+
+<link href="estilo/styleusuario.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="contenido">       
+</div>
+
+<!--bottom dock -->
+<div class="dock" id="dock2">
+  <div class="dock-container2">
+	  <a class="dock-item2" href="usuario.html"><span>Home</span><img src="imagenes/home.png" alt="home" /></a> 
+	  <a class="dock-item2" href="alineacion.html"><span>Alineación</span><img src="imagenes/datosAlineacion.png" alt="alineación" /></a> 	  
+	  <a class="dock-item2" href="#"><span>Clasificación</span><img src="imagenes/clasificacion.png" alt="clasificació" /></a>
+	  <a class="dock-item2" href="#"><span>Configurar Plantilla</span><img src="imagenes/configuraralineacion.png" alt="configuración" /></a>
+	  <a class="dock-item2" href="index.html"><span>Cerrar Sesión</span><img src="imagenes/desconectar.png" alt="desconectar" /></a>
+  </div>
+</div>
+
+<!--dock menu JS options -->
+<script type="text/javascript">
+	
+	$(document).ready(
+		function()
+		{
+			$('#dock2').Fisheye(
+				{
+					maxWidth: 60,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container2',
+					itemWidth: 40,
+					proximity: 80,
+					alignment : 'left',
+					valign: 'bottom',
+					halign : 'center'
+				}
+			)
+		}
+	);
+
+</script>
+</body>
+</html>

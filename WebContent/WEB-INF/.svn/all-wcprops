@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5/trunk/ManagerComunio/WebContent/WEB-INF
+END
+struts-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/ManagerComunio/WebContent/WEB-INF/struts-config.xml
+END
+validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/ManagerComunio/WebContent/WEB-INF/validation.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/ManagerComunio/WebContent/WEB-INF/web.xml
+END
